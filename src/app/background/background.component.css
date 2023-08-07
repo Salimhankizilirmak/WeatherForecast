@@ -1,0 +1,87 @@
+.stars {
+  
+    background-image: url("../background/assets/stars.jpg") ;
+    background-repeat: repeat;
+    background-size: cover;
+    animation: twinkling-stars 30s infinite;
+ z-index: -1;
+  }
+  
+  @keyframes twinkling-stars {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 1000px 1000px;
+    }
+  }
+  
+  .stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .star {
+    position: absolute;
+    background-color: #fff;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    animation: twinkle 1s infinite;
+  }
+  
+  @keyframes twinkle {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .birds {
+  
+    background-image: url("../background/assets/bird.gif") ;
+    background-repeat: repeat;
+    background-size:contain;
+   
+ z-index: -1;
+  }
+  
+  @keyframes twinkling-stars {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 1000px 1000px;
+    }
+  }
+  
+  .birds {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  
+  
+  @keyframes twinkle {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
